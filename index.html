@@ -1,119 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PK Digital Hub</title>
+
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#f0f2f5;font-family:Arial;color:#1c1e21}
-header{background:#1877f2;color:white;padding:18px 7%;font-size:25px;font-weight:bold}
-.container{max-width:1050px;margin:25px auto;padding:12px}
-.cover{
-height:250px;
-border-radius:12px;
-background:linear-gradient(120deg,#063c91,#1877f2,#65baff);
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
-}
-.cover h1{font-size:42px;margin:0}
-.cover p{font-size:18px}
-.profile{background:white;text-align:center;padding:0 15px 20px;border-radius:12px}
-.logo{
-width:125px;height:125px;border-radius:50%;
-background:linear-gradient(135deg,#1877f2,#063c91);
-color:#ffd43b;border:6px solid white;
-margin:-62px auto 10px;
-display:flex;align-items:center;justify-content:center;
-font-size:43px;font-weight:bold;
-position:relative;
-}
-.profile h2{margin:8px}
-.muted{color:#65676b}
-button{background:#1877f2;color:white;border:0;padding:12px 20px;border-radius:7px;cursor:pointer;font-weight:bold}
-nav{display:flex;justify-content:center;gap:25px;padding:18px;border-top:1px solid #ddd;margin-top:20px;flex-wrap:wrap}
-nav a{color:#1877f2;text-decoration:none;font-weight:bold}
-.grid{display:grid;grid-template-columns:1fr 2fr;gap:18px;margin-top:20px}
-.card{background:white;border-radius:10px;padding:20px;margin-bottom:15px}
-.card h3{margin-top:0}
-.service{padding:9px;border-bottom:1px solid #eee}
-footer{text-align:center;padding:25px;color:#65676b}
-@media(max-width:650px){.grid{grid-template-columns:1fr}.cover{height:180px}.cover h1{font-size:28px}}
+body{margin:0;font-family:Arial;background:#f0f2f5;color:#222}
+header{background:#1877f2;color:white;padding:20px;text-align:center}
+nav{background:white;padding:15px;text-align:center}
+nav a{margin:10px;color:#1877f2;text-decoration:none;font-weight:bold}
+.container{max-width:850px;margin:25px auto;padding:15px}
+.card{background:white;padding:25px;margin-bottom:20px;border-radius:12px}
+h2{color:#1877f2}
+.service{padding:12px;background:#eef4ff;margin:8px 0;border-radius:8px}
+.contact{display:inline-block;background:#25D366;color:white;padding:14px 20px;border-radius:25px;text-decoration:none;font-weight:bold}
+footer{background:#1877f2;color:white;text-align:center;padding:20px}
 </style>
 </head>
+
 <body>
 
-<header>PK Digital Hub</header>
-
-<div class="container">
-
-<div class="cover">
-<div>
+<header>
 <h1>PK DIGITAL HUB</h1>
-<p>Your Trusted Digital Service Partner</p>
-</div>
-</div>
-
-<div class="profile">
-<div class="logo">PK</div>
-<h2>PK Digital Hub</h2>
-<p class="muted">Data Entry | Virtual Assistant | Online Services</p>
-<p>Professional Digital Services for Your Business</p>
-<button onclick="location.href='mailto:likhonislam5@gmail.com'">Contact Me</button>
+<p>Data Entry & Virtual Assistant Services</p>
+</header>
 
 <nav>
-<a href="#posts">Posts</a>
-<a href="#about">About</a>
+<a href="#home">Home</a>
 <a href="#services">Services</a>
 <a href="#contact">Contact</a>
 </nav>
-</div>
 
-<div class="grid">
-<div>
-<div class="card" id="about">
-<h3>About Us</h3>
-<p>Welcome to PK Digital Hub. We provide reliable and accurate digital services.</p>
-</div>
+<div class="container">
 
-<div class="card" id="services">
-<h3>Our Services</h3>
-<div class="service">✓ Data Entry</div>
-<div class="service">✓ Excel & Google Sheets</div>
-<div class="service">✓ PDF to Word</div>
-<div class="service">✓ Copy Paste</div>
-<div class="service">✓ Web Research</div>
-<div class="service">✓ Virtual Assistant</div>
-</div>
-</div>
+<section class="card" id="home">
+<h2>Welcome to PK Digital Hub</h2>
+<p>We provide professional online services for clients around the world.</p>
+<p>Quality Work | Fast Delivery | Client Satisfaction</p>
+</section>
 
-<div>
-<div class="card" id="posts">
-<h3>Welcome to PK Digital Hub!</h3>
-<p>We are ready to help you with professional Data Entry and Virtual Assistant services.</p>
-<p>Quality Work • Accuracy • On-time Delivery</p>
-</div>
+<section class="card" id="services">
+<h2>Our Services</h2>
+<div class="service">Data Entry</div>
+<div class="service">Excel & Google Sheets</div>
+<div class="service">PDF to Word Conversion</div>
+<div class="service">Copy Paste</div>
+<div class="service">Web Research</div>
+<div class="service">Virtual Assistant</div>
+</section>
 
-<div class="card" id="contact">
-<h3>Contact Us</h3>
+<section class="card" id="contact">
+<h2>Contact Us</h2>
 <p>Email: likhonislam5@gmail.com</p>
-<p>WhatsApp: +8801743066879</p>
-<button onclick="window.open('https://wa.me/8801743066879','_blank')">WhatsApp Me</button>
-</div>
-</div>
-</div>
+<a class="contact" href="https://wa.me/8801743066879">WhatsApp এ যোগাযোগ করুন</a>
+</section>
+
 </div>
 
-<footer>© 2026 PK Digital Hub | All Rights Reserved</footer>
-<a href="https://wa.me/8801743066879"
-   style="position:fixed;bottom:20px;right:20px;
-   background:#25D366;color:white;padding:15px 20px;
-   border-radius:30px;text-decoration:none;font-weight:bold;">
-   WhatsApp এ যোগাযোগ করুন
-</a>
+<footer>
+<p>© 2026 PK Digital Hub. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
