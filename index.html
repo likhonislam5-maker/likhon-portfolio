@@ -1,93 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Likhon | Data Entry & Virtual Assistant</title>
+<title>Likhon Islam | Profile</title>
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f7fb;
-    color: #222;
-}
-header {
-    background: #102a43;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-}
-header h1 {font-size: 36px;}
-header p {font-size: 18px;}
-section {
-    max-width: 850px;
-    margin: 30px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-}
-h2 {color: #087e8b;}
-.service {
-    padding: 12px;
-    background: #eef6f8;
-    margin: 10px 0;
-    border-radius: 8px;
-}
-.button {
-    display: inline-block;
-    background: #087e8b;
-    color: white;
-    padding: 14px 25px;
-    text-decoration: none;
-    border-radius: 8px;
-}
-footer {
-    text-align: center;
-    background: #102a43;
-    color: white;
-    padding: 20px;
-}
+*{box-sizing:border-box}
+body{margin:0;background:#f0f2f5;font-family:Arial;color:#1c1e21}
+header{background:#1877f2;color:white;padding:16px 6%;font-size:25px;font-weight:bold}
+.container{max-width:1000px;margin:25px auto;padding:15px}
+.cover{height:220px;background:linear-gradient(120deg,#1877f2,#75b8ff);border-radius:12px}
+.profile{text-align:center;background:white;padding:0 20px 25px;border-radius:12px}
+.avatar{width:125px;height:125px;border-radius:50%;background:#1877f2;color:white;border:5px solid white;margin-top:-65px;display:inline-flex;align-items:center;justify-content:center;font-size:48px;font-weight:bold}
+h1{margin:8px}
+.bio{color:#65676b}
+nav{display:flex;justify-content:center;gap:25px;padding:18px;border-top:1px solid #ddd;margin-top:20px}
+nav a{color:#1877f2;text-decoration:none;font-weight:bold}
+.grid{display:grid;grid-template-columns:1fr 2fr;gap:18px;margin-top:20px}
+.card{background:white;border-radius:10px;padding:20px;margin-bottom:15px}
+button{background:#1877f2;color:white;border:0;padding:12px 20px;border-radius:7px;cursor:pointer}
+.post{line-height:1.7}
+@media(max-width:650px){.grid{grid-template-columns:1fr}nav{gap:12px;flex-wrap:wrap}}
 </style>
 </head>
 <body>
-
-<header>
-<h1>Hi, I'm Likhon</h1>
-<p>Data Entry & Virtual Assistant</p>
-<p>Reliable • Professional • Hardworking</p>
-<a class="button" href="#contact">Contact Me</a>
-</header>
-
-<section>
-<h2>About Me</h2>
-<p>Hello! I'm Likhon. I provide professional data entry and virtual assistant services. My goal is to deliver accurate and quality work to my clients.</p>
-</section>
-
-<section>
-<h2>My Services</h2>
-<div class="service">✔ Data Entry</div>
-<div class="service">✔ Copy Paste Work</div>
-<div class="service">✔ Excel & Google Sheets</div>
-<div class="service">✔ PDF to Word Conversion</div>
-<div class="service">✔ Web Research</div>
-<div class="service">✔ Bengali & English Typing</div>
-</section>
-
-<section id="contact">
-<h2>Contact Me</h2>
-<p>Need help with your project? Let's work together!</p>
-<a class="button" href="mailto:likhonislam5@gmail.com">Email Me</a>
-<a class="button" href="https://wa.me/8801743066879" target="_blank">WhatsApp Me</a>
-<a class="button" href="Likhon_Data_Entry_Sample.xlsx" download>
-Download My Work Sample
-</a>
-<footer>
-<p>© 2026 Likhon | All Rights Reserved</p>
-</footer>
-
+<header>LIKHON</header>
+<div class="container">
+<div class="cover"></div>
+<div class="profile">
+<div class="avatar">L</div>
+<h1>Likhon Islam</h1>
+<p class="bio">Data Entry Specialist | Virtual Assistant</p>
+<p>Welcome to my professional profile!</p>
+<button onclick="location.href='mailto:YOUR_EMAIL@gmail.com'">Contact Me</button>
+<nav>
+<a href="#posts">Posts</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+<div class="grid">
+<div>
+<div class="card" id="about">
+<h3>About Me</h3>
+<p>I am a Data Entry Specialist and Virtual Assistant. I provide accurate and professional services.</p>
+</div>
+<div class="card" id="services">
+<h3>My Services</h3>
+<p>✓ Data Entry</p>
+<p>✓ Excel & Google Sheets</p>
+<p>✓ PDF to Word</p>
+<p>✓ Copy Paste</p>
+<p>✓ Web Research</p>
+</div>
+</div>
+<div>
+<div class="card" id="posts">
+<h3>My Posts</h3>
+<div class="post">
+<strong>Likhon Islam</strong>
+<p>Welcome to my professional portfolio! I am ready to help you with Data Entry and Virtual Assistant tasks.</p>
+</div>
+</div>
+<div class="card" id="contact">
+<h3>Contact Me</h3>
+<p>Email: YOUR_EMAIL@gmail.com</p>
+<p>WhatsApp: YOUR_PHONE_NUMBER</p>
+<button onclick="location.href='https://wa.me/YOUR_PHONE_NUMBER'">WhatsApp Me</button>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
-
-
-
-এখন যা করবে:
