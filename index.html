@@ -8,44 +8,63 @@
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#f0f2f5;font-family:Arial;color:#1c1e21}
-header{background:#1877f2;color:white;padding:16px 7%;font-size:25px;font-weight:bold}
+header{background:#1877f2;color:white;padding:18px 7%;font-size:25px;font-weight:bold}
 .container{max-width:1050px;margin:25px auto;padding:12px}
-.cover{height:230px;border-radius:12px;background:linear-gradient(120deg,#0755c9,#61b5ff);display:flex;align-items:center;justify-content:center;color:white;text-align:center;font-size:34px;font-weight:bold}
+.cover{
+height:250px;
+border-radius:12px;
+background:linear-gradient(120deg,#063c91,#1877f2,#65baff);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+.cover h1{font-size:42px;margin:0}
+.cover p{font-size:18px}
 .profile{background:white;text-align:center;padding:0 15px 20px;border-radius:12px}
-.logo{width:120px;height:120px;border-radius:50%;background:#1877f2;color:white;border:5px solid white;margin-top:-60px;display:inline-flex;align-items:center;justify-content:center;font-size:28px;font-weight:bold}
-h1{margin:8px 0}
+.logo{
+width:125px;height:125px;border-radius:50%;
+background:linear-gradient(135deg,#1877f2,#063c91);
+color:#ffd43b;border:6px solid white;
+margin:-62px auto 10px;
+display:flex;align-items:center;justify-content:center;
+font-size:43px;font-weight:bold;
+position:relative;
+}
+.profile h2{margin:8px}
 .muted{color:#65676b}
 button{background:#1877f2;color:white;border:0;padding:12px 20px;border-radius:7px;cursor:pointer;font-weight:bold}
 nav{display:flex;justify-content:center;gap:25px;padding:18px;border-top:1px solid #ddd;margin-top:20px;flex-wrap:wrap}
 nav a{color:#1877f2;text-decoration:none;font-weight:bold}
 .grid{display:grid;grid-template-columns:1fr 2fr;gap:18px;margin-top:20px}
 .card{background:white;border-radius:10px;padding:20px;margin-bottom:15px}
-.card h2{margin-top:0}
-.service{padding:9px 0;border-bottom:1px solid #eee}
-.posthead{display:flex;align-items:center;gap:10px}
-.smalllogo{background:#1877f2;color:white;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;font-weight:bold}
-.postbody{line-height:1.7}
+.card h3{margin-top:0}
+.service{padding:9px;border-bottom:1px solid #eee}
 footer{text-align:center;padding:25px;color:#65676b}
-@media(max-width:650px){.grid{grid-template-columns:1fr}.cover{height:170px;font-size:25px}}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.cover{height:180px}.cover h1{font-size:28px}}
 </style>
 </head>
 <body>
+
 <header>PK Digital Hub</header>
+
 <div class="container">
+
 <div class="cover">
-  <div class="cover-content">
-    <h1>PK DIGITAL HUB</h1>
-    <p>Your Trusted Digital Service Partner</p>
-  </div>
+<div>
+<h1>PK DIGITAL HUB</h1>
+<p>Your Trusted Digital Service Partner</p>
 </div>
+</div>
+
 <div class="profile">
-<div class="logo">
-  <span>PK</span>
-</div>
-<h1>PK Digital Hub</h1>
+<div class="logo">PK</div>
+<h2>PK Digital Hub</h2>
 <p class="muted">Data Entry | Virtual Assistant | Online Services</p>
 <p>Professional Digital Services for Your Business</p>
 <button onclick="location.href='mailto:likhonislam5@gmail.com'">Contact Me</button>
+
 <nav>
 <a href="#posts">Posts</a>
 <a href="#about">About</a>
@@ -53,14 +72,16 @@ footer{text-align:center;padding:25px;color:#65676b}
 <a href="#contact">Contact</a>
 </nav>
 </div>
+
 <div class="grid">
 <div>
 <div class="card" id="about">
-<h2>About</h2>
-<p>Welcome to PK Digital Hub. I provide reliable and accurate online support services for businesses and individuals.</p>
+<h3>About Us</h3>
+<p>Welcome to PK Digital Hub. We provide reliable and accurate digital services.</p>
 </div>
+
 <div class="card" id="services">
-<h2>Our Services</h2>
+<h3>Our Services</h3>
 <div class="service">✓ Data Entry</div>
 <div class="service">✓ Excel & Google Sheets</div>
 <div class="service">✓ PDF to Word</div>
@@ -69,27 +90,25 @@ footer{text-align:center;padding:25px;color:#65676b}
 <div class="service">✓ Virtual Assistant</div>
 </div>
 </div>
+
 <div>
 <div class="card" id="posts">
-<div class="posthead">
-<div class="smalllogo">PK</div>
-<div><b>PK Digital Hub</b><br><span class="muted">Welcome Post</span></div>
-</div>
-<div class="postbody">
 <h3>Welcome to PK Digital Hub!</h3>
-<p>We are ready to help you with Data Entry, Excel, PDF conversion and Virtual Assistant services.</p>
+<p>We are ready to help you with professional Data Entry and Virtual Assistant services.</p>
 <p>Quality Work • Accuracy • On-time Delivery</p>
 </div>
-</div>
+
 <div class="card" id="contact">
-<h2>Contact Us</h2>
+<h3>Contact Us</h3>
 <p>Email: likhonislam5@gmail.com</p>
 <p>WhatsApp: +8801743066879</p>
-<button onclick="window.open('https://wa.me/8801743066879','_blank')">Message on WhatsApp</button>
+<button onclick="window.open('https://wa.me/8801743066879','_blank')">WhatsApp Me</button>
 </div>
 </div>
 </div>
 </div>
+
 <footer>© 2026 PK Digital Hub | All Rights Reserved</footer>
+
 </body>
 </html>
